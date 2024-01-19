@@ -11,15 +11,16 @@
     
 <section>
     <h1>generator password</h1>
-    <div id="mdp"> <i class="fa-solid fa-copy"></i></div>
+    <div id="mdp"> <input id="copy"> <button id="i" type="button"><i class="fa-solid fa-copy"></i></button></input>
+    </div>
     <section>
-        <div> <p>Password length</p> <input id="mdpLength" type="number"></div>
+        <div> <p>Password length</p> <input id="mdpLength" type="number"  min="1" max="15"></div>
         <div><p>upperCase Letter</p> <input id="upperCase" type="checkbox"></div>
         <div><p>lowerCase Letter</p> <input id="lowerCase" type="checkbox"></div>
         <div><p>Number</p> <input id="number" type="checkbox"></div>
         <div><p>Symbole</p> <input id="symbole" type="checkbox"></div>
     </section>
-    <button type="button">generate</button>
+    <button id="gener" type="button">generate</button>
 </section>
 
 

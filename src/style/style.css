@@ -26,21 +26,29 @@ section{
     width: 100%;
     position: relative;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
-i{
+#i{
     position:absolute;
     right: 5%;
-    top: 25%;
-    font-size: 20px;    
+    
+    font-size: 20px;  
+    height: 90%;  
+    width: 10%;
 }
-i:hover{
+#i:hover{
     color: orange;
     
     
 }
-
+#copy{
+    background: transparent;
+    border: none;
+}
 
 
 #mdpLength{
