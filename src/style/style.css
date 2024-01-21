@@ -74,3 +74,13 @@ button:active{
     background: orange;
     color: black;
 }
+
+
+input{
+    background-color: #3cbc8d00;
+    color: rgb(216, 141, 21);
+}
+#number{
+    background-color: #3cbc8d00;
+    color: rgb(216, 141, 21);
+}
